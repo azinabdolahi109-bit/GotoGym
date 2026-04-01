@@ -1,10 +1,10 @@
-# Gym Logger - Project Guide
+# GotoGym - Project Guide
 
 ## Overview
 
 A minimal, mobile-first gym logging web app built with **Next.js** and **Firebase Firestore**. Users can quickly log exercises — movement name, reps, and weight — during workouts.
 
-**Repo:** https://github.com/henrylahteenmaki/gym_program  
+**Repo:** https://github.com/azinabdolahi109-bit/GotoGym  
 **Deployment:** Vercel  
 **Database:** Firebase Firestore
 
@@ -80,7 +80,7 @@ These are optional but would improve the UX significantly:
 ## Project Structure
 
 ```
-gym_logger/
+GotoGym/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx          # Root layout, fonts, metadata
@@ -145,7 +145,7 @@ npm run lint
 
 ## Vercel Deployment
 
-1. Push to GitHub: `https://github.com/henrylahteenmaki/gym_program`
+1. Push to GitHub: `https://github.com/azinabdolahi109-bit/GotoGym`
 2. Connect repo in Vercel dashboard
 3. Set environment variables in Vercel (same as `.env.local`)
 4. Vercel auto-detects Next.js — deploys on every push to `main`
